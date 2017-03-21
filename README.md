@@ -35,14 +35,14 @@ Refer to service:
 
 0. Install the git and maven command line:
 
-    ```sh
+```sh
 yum install git
 or: apt-get install git
 cd ~
-wget http://www.apache.org/dist//maven/binaries/apache-maven-2.2.1-bin.tar.gz
-tar zxvf apache-maven-2.2.1-bin.tar.gz
+wget http://www.apache.org/dist//maven/binaries/apache-maven-3.2.2-bin.tar.gz
+tar zxvf apache-maven-3.2.2-bin.tar.gz
 vi .bash_profile
-append: export PATH=$PATH:~/apache-maven-2.2.1/bin
+append: export PATH=$PATH:~/apache-maven-3.2.2/bin
 source .bash_profile
 ```
 
